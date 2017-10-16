@@ -41,7 +41,7 @@ hi PreProc         ctermbg=NONE ctermfg=109    guibg=NONE     guifg=#85A7A5  cte
 hi Special         ctermbg=NONE ctermfg=103    guibg=NONE     guifg=#7D8FA3  cterm=NONE      gui=NONE
 hi SpecialKey      ctermbg=NONE ctermfg=59     guibg=NONE     guifg=#4C5966  cterm=NONE      gui=NONE
 hi Statement       ctermbg=NONE ctermfg=13     guibg=NONE     guifg=#A57A9E  cterm=NONE      gui=NONE
-hi String          ctermbg=NONE ctermfg=107    guibg=NONE     guifg=#95B47B  cterm=NONE      gui=NONE
+hi String          ctermbg=NONE ctermfg=65     guibg=NONE     guifg=#95B47B  cterm=NONE      gui=NONE
 hi Type            ctermbg=NONE ctermfg=179    guibg=NONE     guifg=#E5C078  cterm=NONE      gui=NONE
 
 hi Cursor          ctermbg=NONE ctermfg=NONE   guibg=#6C6C6C  guifg=NONE     cterm=NONE      gui=NONE
@@ -107,7 +107,13 @@ hi SpellBad        ctermbg=52   ctermfg=9      guibg=#5F0000  guifg=#CC6666  cte
 hi SpellRare       ctermbg=53   ctermfg=13     guibg=#5F005F  guifg=#B294BB  cterm=NONE      gui=NONE
 hi SpellCap        ctermbg=17   ctermfg=12     guibg=#00005F  guifg=#81A2BE  cterm=NONE      gui=NONE
 hi SpellLocal      ctermbg=24   ctermfg=14     guibg=#005F5F  guifg=#8ABEB7  cterm=NONE      gui=NONE
-
+hi Face            ctermbg=NONE ctermfg=240     guibg=NONE     guifg=#8ABEB7  cterm=NONE      gui=NONE
+hi TheImport       ctermbg=NONE ctermfg=238    guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
+hi TheFace         ctermbg=NONE ctermfg=243    guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
+hi AThing          ctermbg=NONE ctermfg=238    guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
+hi ABuild          ctermbg=NONE ctermfg=60     guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
+hi ANumber         ctermbg=NONE ctermfg=144     guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
+hi AException      ctermbg=NONE ctermfg=103     guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
 " Highlight Links {{{1
 " Most of the links are mercilessly stolen from romainl's amazing Apprentice
 " theme. (https://github.com/romainl/Apprentice)
@@ -154,6 +160,19 @@ hi link rubyRailsARMethod             Statement
 hi link rubyRailsARCallbackMethod     Statement
 hi link rubyRailsARClassMethod        Statement
 
+" Python
+hi link pythonInclude Face
+hi link pythonStatement TheImport
+hi link pythonFunction TheFace
+hi link pythonConditional   AThing
+hi link pythonRepeat        AThing
+hi link pythonOperator      AThing
+hi link pythonException     AThing
+hi link pythonInclude       AThing
+hi link pythonAsync         AThing
+hi link pythonBuiltin       ABuild
+hi link pythonNumber        ANumber
+hi link pythonExceptions    AException
 " Diff
 hi link diffAdded           String
 hi link diffRemoved         Function
