@@ -115,6 +115,7 @@ hi ABuild          ctermbg=NONE ctermfg=60     guibg=NONE     guifg=#444444  cte
 hi ANumber         ctermbg=NONE ctermfg=144     guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
 hi AException      ctermbg=NONE ctermfg=103     guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
 
+hi! link goLabel TheFace
 hi! link goSignedInts TheFace
 hi! link goUnsignedInts TheFace
 hi! link goBoolean TheFace
