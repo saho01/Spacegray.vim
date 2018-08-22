@@ -114,6 +114,26 @@ hi AThing          ctermbg=NONE ctermfg=238    guibg=NONE     guifg=#444444  cte
 hi ABuild          ctermbg=NONE ctermfg=60     guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
 hi ANumber         ctermbg=NONE ctermfg=144     guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
 hi AException      ctermbg=NONE ctermfg=103     guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
+
+hi! link goSignedInts TheFace
+hi! link goUnsignedInts TheFace
+hi! link goBoolean TheFace
+hi! link goPredefinedIdentifiers TheFace
+hi! link goTypeDecl TheFace
+hi! link goStatement TheFace
+hi! link goRepeat TheFace
+hi! link goType TheFace
+hi! link goImport TheFace
+hi! link goPackage TheFace
+hi! link goVar TheFace
+hi! link goConst TheFace
+hi! link goDirective Face
+hi! link goConstants TheFace
+hi! link goDeclaration TheFace
+hi! link goDeclType TheFace
+hi! link goBuiltins TheFace
+hi! link goConditional Face
+
 " Highlight Links {{{1
 " Most of the links are mercilessly stolen from romainl's amazing Apprentice
 " theme. (https://github.com/romainl/Apprentice)
