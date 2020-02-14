@@ -109,7 +109,7 @@ hi SpellCap        ctermbg=17   ctermfg=12     guibg=#00005F  guifg=#81A2BE  cte
 hi SpellLocal      ctermbg=24   ctermfg=14     guibg=#005F5F  guifg=#8ABEB7  cterm=NONE      gui=NONE
 hi Face            ctermbg=NONE ctermfg=240     guibg=NONE     guifg=#8ABEB7  cterm=NONE      gui=NONE
 hi TheImport       ctermbg=NONE ctermfg=238    guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
-hi TheFace         ctermbg=NONE ctermfg=243    guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
+hi TheFace         ctermbg=NONE ctermfg=244    guibg=NONE     guifg=#808080  cterm=NONE      gui=NONE
 hi AThing          ctermbg=NONE ctermfg=238    guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
 hi ABuild          ctermbg=NONE ctermfg=60     guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
 hi ANumber         ctermbg=NONE ctermfg=144     guibg=NONE     guifg=#444444  cterm=NONE      gui=NONE
